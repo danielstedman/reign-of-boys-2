@@ -80,6 +80,12 @@ const Renderer = {
     loadImage: function(path) {
         if (!this.assetCache[path]) {
             const img = new Image();
+            img.onload = () => {
+                console.log(`Successfully loaded asset: ${path}`);
+            };
+            img.onerror = () => {
+                console.error(`Failed to load asset: ${path}`);
+            };
             img.src = path;
             this.assetCache[path] = img;
             
@@ -122,14 +128,11 @@ const Renderer = {
         if (spritePath) {
             // Set background image
             sprite.style.backgroundImage = `url('${spritePath}')`;
-            sprite.style.backgroundSize = 'contain';
-            sprite.style.backgroundPosition = 'center';
-            sprite.style.backgroundRepeat = 'no-repeat';
-            sprite.style.width = '100%';
-            sprite.style.height = '100%';
+            console.log(`Setting sprite for ${unit.type}: ${spritePath}`);
         } else {
             // Fallback to text
             sprite.textContent = unit.icon || unit.type[0];
+            console.warn(`No sprite found for ${unit.type}, using text fallback`);
         }
         
         // Add sprite to unit element

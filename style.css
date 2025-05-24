@@ -218,30 +218,31 @@ body {
 
 /* Unit Styles */
 .unit {
+    position: relative;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    font-weight: bold;
-    font-size: 1.2rem;
 }
 
 .unit.crown {
-    color: var(--crown-color);
+    border: 1px solid var(--crown-color);
 }
 
 .unit.horde {
-    color: var(--horde-color);
+    border: 1px solid var(--horde-color);
 }
 
 .unit-sprite {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
 
 .health-bar-container {
