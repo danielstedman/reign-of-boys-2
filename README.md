@@ -15,7 +15,7 @@ A tactical turn-based web game featuring two factions: Crown and Horde. Battle f
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/danielstedman/reign-of-boys-2.git
 ```
 
 2. Open `index.html` in your web browser to start playing!
@@ -42,4 +42,4 @@ Current version: v0.8 — Mutual Annihilation Patch
 
 ## License
 
-[Add your chosen license here] 
+MIT License
