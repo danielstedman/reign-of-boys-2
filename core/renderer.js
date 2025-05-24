@@ -7,40 +7,40 @@ const Renderer = {
     assetPaths: {
         units: {
             Crown: {
-                'Knight': '/assets/units/crown/knight.png',
-                'Archer': '/assets/units/crown/archer.png',
-                'Mage': '/assets/units/crown/wizard.png',
-                'Paladin': '/assets/units/crown/paladin.png',
-                'Scout': '/assets/units/crown/scout.png',
-                'Royal Guard': '/assets/units/crown/militia.png',
-                'Battlemage': '/assets/units/crown/wizard.png',
-                'Cleric': '/assets/units/crown/cleric.png',
-                'Cavalier': '/assets/units/crown/cavalry.png'
+                'Knight': 'assets/units/crown/knight.png',
+                'Archer': 'assets/units/crown/archer.png',
+                'Mage': 'assets/units/crown/wizard.png',
+                'Paladin': 'assets/units/crown/paladin.png',
+                'Scout': 'assets/units/crown/scout.png',
+                'Royal Guard': 'assets/units/crown/militia.png',
+                'Battlemage': 'assets/units/crown/wizard.png',
+                'Cleric': 'assets/units/crown/cleric.png',
+                'Cavalier': 'assets/units/crown/cavalry.png'
             },
             Horde: {
-                'Berserker': '/assets/units/horde/berserker.png',
-                'Shaman': '/assets/units/horde/shaman.png',
-                'Grunt': '/assets/units/horde/orc.png',
-                'Warg Rider': '/assets/units/horde/wolfrider.png',
-                'Troll': '/assets/units/horde/troll.png',
-                'Headhunter': '/assets/units/horde/goblin.png',
-                'War Chief': '/assets/units/horde/bloodboy.png',
-                'Witch Doctor': '/assets/units/horde/shaman.png',
-                'Ogre': '/assets/units/horde/ogre.png'
+                'Berserker': 'assets/units/horde/berserker.png',
+                'Shaman': 'assets/units/horde/shaman.png',
+                'Grunt': 'assets/units/horde/orc.png',
+                'Warg Rider': 'assets/units/horde/wolfrider.png',
+                'Troll': 'assets/units/horde/troll.png',
+                'Headhunter': 'assets/units/horde/goblin.png',
+                'War Chief': 'assets/units/horde/bloodboy.png',
+                'Witch Doctor': 'assets/units/horde/shaman.png',
+                'Ogre': 'assets/units/horde/ogre.png'
             }
         },
         terrain: {
-            'grass': '/assets/terrain/dirt_ne.png',
-            'dark-grass': '/assets/terrain/dirt_ne.png',
-            'water': '/assets/terrain/sand.png',
-            'forest': '/assets/terrain/dirt_ne.png',
-            'mountain': '/assets/terrain/dirt_ne.png',
-            'castle': '/assets/terrain/dirt_ne.png'
+            'grass': 'assets/terrain/dirt_ne.png',
+            'dark-grass': 'assets/terrain/dirt_ne.png',
+            'water': 'assets/terrain/sand.png',
+            'forest': 'assets/terrain/dirt_ne.png',
+            'mountain': 'assets/terrain/dirt_ne.png',
+            'castle': 'assets/terrain/dirt_ne.png'
         },
         effects: {
-            'arrow': '/assets/effects/arrow0.png',
-            'fireball': '/assets/effects/fireball.png',
-            'magic': '/assets/effects/blueblast.png'
+            'arrow': 'assets/effects/arrow0.png',
+            'fireball': 'assets/effects/fireball.png',
+            'magic': 'assets/effects/blueblast.png'
         }
     },
     
